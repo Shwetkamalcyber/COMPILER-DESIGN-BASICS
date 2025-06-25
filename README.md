@@ -9,7 +9,7 @@ The purpose of this application is to build a system that can evaluate arithmeti
 The primary objective is to convert human-readable expressions into executable logic through parsing and computation. This requires the breakdown of expressions into subcomponents, identification of operands and operators, and correct application of arithmetic rules.
 
 Core Concepts and Methodology
-✅ 1. Recursive Descent Parsing
+ 1. Recursive Descent Parsing
 This technique is a top-down parsing method where each grammar rule is implemented by a dedicated function. The grammar supported in this application includes:
 
 expression → term { ('+' | '-') term }
@@ -25,7 +25,7 @@ parseFactor() handles numbers and parentheses.
 
 This approach provides a clear and modular structure for parsing arithmetic syntax.
 
-✅ 2. Token Processing
+ 2. Token Processing
 Two key functions handle the reading of characters from the input string:
 
 peek() looks at the next character without removing it from the stream.
@@ -34,7 +34,7 @@ get() reads and consumes the next character.
 
 By using these functions, the parser can efficiently navigate through the input while constructing numbers and identifying operators.
 
-✅ 3. Whitespace and Error Handling
+ 3. Whitespace and Error Handling
 Whitespace characters are ignored using the skipWhitespace() function, allowing for flexible input formatting (e.g., 3+4 or 3 + 4).
 
 Error conditions such as missing parentheses or invalid characters are detected and reported using throw statements with standard exceptions. These are caught in the main program to prevent crashes and display meaningful error messages.
