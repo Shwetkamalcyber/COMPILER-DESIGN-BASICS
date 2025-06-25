@@ -1,4 +1,17 @@
 # COMPILER-DESIGN-BASICS
+
+COMPANY: CODTECH IT SOUTION 
+
+NAME: SHWET KAMAL
+
+INTERN ID: CT04DF161
+
+DOMAIN: C++
+
+DURATION: 4 WEEKS
+
+MENTOR: NEELA SONTASH
+
 Mini Arithmetic Expression Compiler Using Recursive Descent Parsing in C++
 This application implements a Mini Arithmetic Expression Compiler using the technique of recursive descent parsing in C++. It allows a user to enter mathematical expressions in string format and computes their result accurately, following proper operator precedence and handling nested parentheses. The tool demonstrates core concepts of parsing, expression evaluation, and modular design in C++.
 
