@@ -99,3 +99,7 @@ While the current version supports basic operations, the architecture allows eas
 Conclusion
 
 This arithmetic expression evaluator provides a clear example of how recursive parsing and arithmetic logic can be combined to build a functioning mini-compiler in C++. It emphasizes key programming principles such as recursion, error handling, and modular design. The program serves as a foundational model for more advanced parsing and compiler-related applications, and demonstrates how high-level input can be interpreted and executed with precision.
+
+DESCRIPTION:
+
+![Image](https://github.com/user-attachments/assets/886a7db1-2d69-479c-83b2-73b8c7bfca3e)
