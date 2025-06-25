@@ -13,6 +13,7 @@ DURATION: 4 WEEKS
 MENTOR: NEELA SONTASH
 
 Mini Arithmetic Expression Compiler Using Recursive Descent Parsing in C++
+
 This application implements a Mini Arithmetic Expression Compiler using the technique of recursive descent parsing in C++. It allows a user to enter mathematical expressions in string format and computes their result accurately, following proper operator precedence and handling nested parentheses. The tool demonstrates core concepts of parsing, expression evaluation, and modular design in C++.
 
 Purpose and Objective
@@ -20,6 +21,7 @@ Purpose and Objective
 The purpose of this application is to build a system that can evaluate arithmetic expressions such as:
 
 3 + 4 * (2 - 1)
+
 The primary objective is to convert human-readable expressions into executable logic through parsing and computation. This requires the breakdown of expressions into subcomponents, identification of operands and operators, and correct application of arithmetic rules.
 
 Core Concepts and Methodology
@@ -29,8 +31,11 @@ Core Concepts and Methodology
 This technique is a top-down parsing method where each grammar rule is implemented by a dedicated function. The grammar supported in this application includes:
 
 expression → term { ('+' | '-') term }
+
 term       → factor { ('*' | '/') factor }
+
 factor     → number | '(' expression ')'
+
 Each rule corresponds to a function:
 
 parseExpression() handles + and -.
